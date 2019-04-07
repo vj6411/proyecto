@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="description" content="Ejercicio formularios " />
+     <meta name="keywords" content="HTML5, CSS3, Javascript, Curso HTML5, Curso CSS" />
+     <link rel="stylesheet" href="cliente.css">
+     <link rel="shortcut icon" href="img/logo.jpg">
+	<title>Cliente</title>
+</head>
+
+<body>
+        <nav>
+            <div class="borde logo">
+    <img src="img/IMG-20180919-WA0004.jpg" alt="logo imagen" title="logo empresa"></div>
+            <div class="borde navegacion">
+                <ul>
+            <li><a href="#">Inicio
+            </a></li>
+                    <li><a href="">Servicio al cliente</a>
+                        <ul>
+                            <li> <a href="cliente.html">Recoleccion de Residuos</a></li>
+                            <li> <a href="cliente.html">Disposicion de Residuos</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="html/index-estado.html">Notificaciones</a></li>
+                    <li><a href="">Contactenos</a></li>
+
+                </ul>
+            </div>
+            <div class="borde ingreso">
+                <ul>
+                    <li><a href="html/index-perfil.html">Cliente</a>
+                    <ul><li><a href="../../index.html">Cerrar Sesion</a></li>
+                        <li><a href="../inicio conductor/html/indexconductorinicio.html.html">Cambiar Contraseña</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <br>
+        <br>
+        <br>
+
+        <form>
+            <fieldset>
+                <legend>CLIENTE</legend>
+                <span> Razon Social</span>
+                <input type="text" id="Razon social" name="Razon Social">
+                
+                <br />
+                
+                <br />
+                
+                <span> NIT</span>
+                <input type="number" id="NIT" name="NIT">
+                <br />
+    
+                <br />
+                
+                <span>Tipo Servicio</span>
+                Recoleccion:
+                <input type="radio" id="Recoleccion" name="servicio"/>
+                Disposicion final:
+                <input type="radio" id="disposicion-final" name="servicio"/>
+                <br />
+                <br />
+    
+                <span>Fecha servicio</span>
+                <input type="date" id="date" name="date"/>
+                <br />
+                
+                <br />
+                <span>Mensaje Cliente</span>
+                <textarea name="message" id="comentario" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+                
+                <span>Formato servicio</span>
+                <input type="file" id="file" name="file"/>
+                <br />
+                
+                <br/>
+                <input type="submit" id="Enviar" value="Enviar" name="Enviar">
+                          
+                </datalist>
+    
+               </fieldset> 
+                
+            </form>
+        
+    </body>
+</div>
+</html>

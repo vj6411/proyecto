@@ -1,0 +1,179 @@
+ *{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ }
+
+/* Clases especiales*/
+.borde{
+	border: 1px ;
+}
+ .titulo{
+	width: 100%;
+ 	height: 1%;
+ 	padding: 1%;
+ 	background: rgb(0,0,0);
+ 	color: #fff;
+ 	text-align: center;
+ 	font-size: 2em;
+
+}
+/*Cuerpo*/
+body{
+  width: 100%;
+	background-image: url();
+	background-size: 100% 100%;
+	background-attachment: fixed;
+  min-width: 300px;
+}
+/*Contenedor*/
+ .contenedor{
+	width: 100%;
+	margin: auto;
+}
+
+ /*Navegador*/
+ nav{
+ 	width: 100%;
+ 	height: 60px;
+ 	background: #010101;  
+	position: fixed;
+ }
+ .logo{
+ 	width: 20%;
+ 	height: 100%;
+ 	padding: 5px;
+ 	float: left;
+ 	text-align: center;
+ }
+ .logo img{
+ 	width: 40%;
+ 	height: 90%;
+
+ }
+ .navegacion{
+ 	width: 65%;
+ 	height: 100%; 
+ 	float: left;
+ }
+ 
+ 
+ }/* nivel 0*/
+ nav ul{
+ 	list-style: none;
+ 	padding: 0 40% 0 0;
+ }
+ nav>.navegacion>ul>li,nav>.ingreso>ul>li{
+ 	display: inline-table;
+ }
+ nav ul li{
+ 	width: 22%;
+ 	text-align:center;
+ 	background:#38A207;
+ }
+ nav ul li:hover>ul{
+ 	display: block;
+ }
+ nav ul li a{
+ 	display: block;
+ 	padding: 8% 0 8% 0;
+ 	text-decoration: none;
+ 	color: #fff;
+ 	border-bottom: 1px solid #88DB7F;
+ }
+ nav ul li a:hover{
+ 	background: rgba(242,177,52,0);
+ 	border-bottom: 1px solid #88DB7F;
+ }
+ /*nivel 1*/
+ nav li ul{
+ 	position: absolute;
+ 	display: none;
+ }
+ nav li ul li{
+ 	position: relative;
+ }
+ /*nivel 2*/
+ ul li ul li ul {
+ 	left: 120px;		
+ 	top: 2px;
+ }
+ .ingreso{
+ 	width: 15%;
+ 	height: 100%;
+ 	float: left;
+ 	background: #010101;
+  }
+  .ingreso ul{
+  	width: 100%;
+  	padding: 0;
+  	background:#38A207;
+
+  }
+  .ingreso ul li{
+  	width: 100%;
+  	background: #38A207;
+  }
+  .ingreso li ul{
+  	width: 15%;
+  	background: #38A207;
+  }
+
+ /*Encabezaso*/
+ header{
+ 	width: 100%;
+ 	height: 100%;
+ 	background-size: 100% 100%;
+ 	background: rgba(255,255,255)
+ }
+ header img{
+  width: 100%;
+  height: auto;
+  z-index: -1;
+ }
+ header h1 {
+  top: 50%;
+  left:15%;
+  font-size: 59pt;
+  color:#fff;
+  position: absolute;
+  z-index: 0;
+ }
+ header h2 {
+  top: 57%;
+  left: 15%;
+  font-size: 50pt;
+  color:#fff;
+  position: absolute;
+  z-index: 0;
+ }
+ 
+
+ 
+/*Portafolio*/
+  
+  main#portafolio{
+ 	width: 100%;
+ 	height: 950px;
+ 	background: rgba(255,255,255);
+ } 
+ .div-porta{
+ 	width: 50%;
+ 	height: 100%;
+ 	padding: 30px;
+ 	float: left; 
+ 	text-align: center;
+ }
+ .div-porta img{
+ 	width: 28%;
+ 	height: 20%;
+ 	margin: 20px 20px 0px 0px;
+ 	border-radius: 50%;
+ }
+ .div-porta p{
+ 	margin: 20px 20px 0px 0px;
+ 	text-align: justify;
+ }
+ @media screen and {
+
+ }
